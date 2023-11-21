@@ -12,22 +12,15 @@
         </Suspense>
   
       </div>
-      <the-footer></the-footer>
     </div>
   </template>
   
   <script>
   import TheHeader from "@/layouts/TheHeader/TheHeader.vue";
-  import TheMenu from "@/layouts/TheMenu/TheMenu.vue"
-  import TheFooter from "@/layouts/TheFooter/TheFooter.vue";
-  import ConfirmDialog from 'primevue/confirmdialog';
-  
+   
   export default {
     components: {
       TheHeader,
-      TheMenu,
-      TheFooter,
-      ConfirmDialog
     }
   }
   </script>
